@@ -1,0 +1,19 @@
+public class DiceW12 {
+	private static int randomNumber;
+	public static int Throw()
+	{
+		randomNumber=( (int)(Math.random() );
+		return randomNumber;
+	}
+	public static int Throw(int dices)
+	{
+		randomNumber=dices * ( (int)(Math.random() );
+		return randomNumber;
+	}
+	public static int Throw(int dices, int bounces)
+	{
+		
+		randomNumber=dices * ((int)(Math.random()) + bounces;
+		return randomNumber;
+	}
+}
